@@ -1,0 +1,12 @@
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - fuzzywuzzy=0.15.1
+  - pandas
+  - matplotlib
+  - mpld3
+  - diamond
+  - cd-hit=4.8.1
+  - blast
+  - packaging

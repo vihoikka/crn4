@@ -1,0 +1,1 @@
+Some fastas were subsetted to create profiles that only incorporate the effector domain to prevent crosshits between sensory domains across different effectors. The original full protein sequences are in theis folder

@@ -1,0 +1,8 @@
+channels:
+  - bioconda
+  #- anaconda
+dependencies:
+  - seaborn
+  - matplotlib
+  - pandas
+  - numpy

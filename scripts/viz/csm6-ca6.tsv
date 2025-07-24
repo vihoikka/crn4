@@ -1,0 +1,4 @@
+source	target	type	weight
+csm6-ca6	calpl	Undirected	0
+csm6-ca6	cora	Undirected	0
+csm6-ca6	csx23	Undirected	0

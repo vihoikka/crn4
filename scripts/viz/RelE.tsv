@@ -1,0 +1,7 @@
+source	target	type	weight
+RelE	csx6	Undirected	7
+RelE	can12	Undirected	6
+RelE	calpl	Undirected	1
+RelE	csm6-ca6	Undirected	0
+RelE	cora	Undirected	0
+RelE	csx23	Undirected	0

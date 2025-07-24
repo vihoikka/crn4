@@ -1,0 +1,6 @@
+channels:
+ #- anaconda
+ - conda-forge
+dependencies:
+- openpyxl==3.0.10
+- pandas

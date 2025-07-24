@@ -1,0 +1,11 @@
+channels:
+  - bioconda
+  - conda-forge
+  - biobuilds
+  #- anaconda
+dependencies:
+  - Python==3.8
+  - prokka
+  - numpy
+  - biopython
+  - scikit-learn

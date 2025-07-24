@@ -1,0 +1,6 @@
+source	target	type	weight
+can12	csx6	Undirected	73
+can12	calpl	Undirected	3
+can12	cora	Undirected	3
+can12	csm6-ca6	Undirected	0
+can12	csx23	Undirected	0

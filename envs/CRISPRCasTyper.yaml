@@ -1,0 +1,8 @@
+channels:
+  - russel88
+  - bioconda
+  - conda-forge
+dependencies:
+  - cctyper
+  - xgboost
+  - nccl
