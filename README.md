@@ -1,7 +1,5 @@
 # Ring nuclease search and characterisation pipeline (Crn4 edition)
-This repo builds on top of a previous code repository that looks for known ring nucleases in prokaryotic genomes ([https://github.com/vihoikka/ring_nucleases](url)). This modified
-version lacks several features from the original pipeline and is primarily used for
-Crn4 analysis.
+This repo builds on top of a previous code repository that looks for known ring nucleases in prokaryotic genomes ([https://github.com/vihoikka/ring_nucleases](url)). This modified version lacks several features from the original pipeline and is primarily used for Crn4 analysis.
 
 There is one main pipeline
 - rn_crn4.smk: a modified ring nuclease pipeline fitted to analyse Crn4's. Looks at prokaryotic and phage genomes.
@@ -10,9 +8,7 @@ The instructions below assume basic understanding of Snakemake, python and shell
 
 ## Expected runtimes and results
 * Running the pipeline from the beginning with 40 HPC cores takes around 48 hours.
-* Due to the large number of samples which are expressed as wildcards in the Snakemake pipeline, solving the DAG (the order of rules and samples to be run) takes around 20 minutes itself. Be patient!
-* The most important output file is the *mastertable_v2.tsv* in the root of the program
-* Another important location is the R folder, which is used by the accompanying *rn.R* R-script
+* Due to the large number of samples which are expressed as wildcards in the Snakemake pipeline, solving the DAG (the order of rules and samples to be run) takes around 20 minutes itself. Please be patient!
 
 *The scripts may contain unused components*
 
